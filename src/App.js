@@ -14,13 +14,13 @@ import {DISHES} from './shared/dishes';
     state = {  }
     render() { 
       return ( 
-          <div className="App">
- 
+          <>
+                <h1>hello world</h1>
               <Navbar />
               <Menu />
              <Menu dishes={this.state.dishes} />
 
-          </div>
+          </>
 
        );
     }
